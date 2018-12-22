@@ -1,7 +1,8 @@
-# dotnet-core-algo
+# dotnet-core-algo practice
 ## (in-progress)
 ## Description
 
-Random Algorithm written in C# for dotnet core. 
-It contains:
+Sorting Algorithms practised in C# for dotnet core. 
+So far, it contains:
 - Merge Sort
+- Quick Sort
