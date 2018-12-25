@@ -37,6 +37,15 @@ namespace netcore_algo
             sorted = QuickSort.Sort(array, 0, array.Count - 1);
             System.Console.WriteLine("\nAfter");
             sorted.ForEach(item => System.Console.Write(item.ToString() + " "));
+
+            var integerToReverse = 11;
+            System.Console.WriteLine("\n Reversed Integer of " + integerToReverse + " : " + FlipBit.Flip(integerToReverse));
+
+            integerToReverse = 10;
+            System.Console.WriteLine("\n Reversed Integer of " + integerToReverse + " : " + FlipBit.Flip(integerToReverse));
+
+            integerToReverse = 9;            
+            System.Console.WriteLine("\n Reversed Integer of " + integerToReverse + " : " + FlipBit.Flip(integerToReverse));
         }
     }
 }
