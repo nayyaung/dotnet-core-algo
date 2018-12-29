@@ -44,8 +44,12 @@ namespace netcore_algo
             integerToReverse = 10;
             System.Console.WriteLine("\n Reversed Integer of " + integerToReverse + " : " + FlipBit.Flip(integerToReverse));
 
-            integerToReverse = 9;            
+            integerToReverse = 9;
             System.Console.WriteLine("\n Reversed Integer of " + integerToReverse + " : " + FlipBit.Flip(integerToReverse));
+
+            var fibonacciTimes = 13;
+            System.Console.WriteLine("\n Printing Fibonacci " + fibonacciTimes + " times");
+            new Fibonacci().Print(13);
         }
     }
 }
