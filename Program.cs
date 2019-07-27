@@ -7,10 +7,11 @@ namespace netcore_algo
     {
         static void Main(string[] args)
         {
+            /*
             var array = new List<int>();
 
             array = new List<int>(new int[] { 1, 35, 1, 90, 85, 10, 4, 85, 99, 83, 78 });
-            /* To add random integer */
+            /* To add random integer
             Random rnd = new Random();
             for (int i = 0; i <= 5; i++)
             {
@@ -50,6 +51,10 @@ namespace netcore_algo
             var fibonacciTimes = 13;
             System.Console.WriteLine("\n Printing Fibonacci " + fibonacciTimes + " times");
             new Fibonacci().Print(13);
+
+     */
+            NodeTree nt = new NodeTree();
+            nt.Test();
         }
     }
 }

@@ -14,7 +14,7 @@ public class Fibonacci
     private int GetFibonacci(int n)
     {
         int sum;
-        var cache = new Dictionary<int, int>();
+        var cache = new Dictionary<int, int>(); 
         if (n < 2) { return n; }
         if (cache.ContainsKey(n))
         {
