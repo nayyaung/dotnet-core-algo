@@ -25,8 +25,7 @@ namespace netcore_algo
             System.Console.WriteLine("\nAfter");
             sorted.ForEach(item => System.Console.Write(item.ToString() + " "));
 
-            array = new List<int>(new int[] { 1, 35, 1, 90, 85, 10, 4, 85, 99, 83, 78 });
-
+            array = new List<int>(new int[] { 1, 35, 1, 90, 85, 10, 4, 85, 99, 83, 78 }); 
             for (int i = 0; i <= 5; i++)
             {
                 array.Add(rnd.Next(1, 100));
